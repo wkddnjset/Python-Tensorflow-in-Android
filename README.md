@@ -11,6 +11,7 @@
   $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
   $ jupyter notebook
   ```
+  https://askubuntu.com/questions/378558/unable-to-locate-package-while-trying-to-install-packages-with-apt
   
   - Install Python
   
