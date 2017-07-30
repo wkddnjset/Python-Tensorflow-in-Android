@@ -16,7 +16,7 @@
   - Install Python
   
   ```
-  $ apt install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
+  $ pkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
   $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
   $ jupyter notebook
   ```
