@@ -4,13 +4,19 @@
 
 ## Termax 사용하기
 
+  - “Unable to locate package” 에러
+  
+  ```
+  $ apt install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
+  $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
+  $ jupyter notebook```
+  
   - Install Python
   
   ```
-  <script 
-   type="text/javascript" 
-   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
-  </script>
+  $ apt install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
+  $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
+  $ jupyter notebook
   ```
 
   
