@@ -6,10 +6,11 @@
 
   - “Unable to locate package” 에러
   
-  ```
+  ```
   $ apt install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
   $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
-  $ jupyter notebook```
+  $ jupyter notebook
+  ```
   
   - Install Python
   
