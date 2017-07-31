@@ -2,8 +2,8 @@
  1. 안드로이드 OS에서 Python(Tensorflow) 코딩하기
  2. Jupyter Notebook을 이용하여 안드로이드에서 Python 코딩하기
 
-## Termax 사용하기
-  
+## Termax에 Python 설치하기
+  
 ### Install Package (Python...)
 
    - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.
