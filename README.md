@@ -3,15 +3,6 @@
  2. Jupyter Notebook을 이용하여 안드로이드에서 Python 코딩하기
 
 ## Termax 사용하기
-
-  - “Unable to locate package” 에러
-  
-  ```
-  $ apt install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
-  $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
-  $ jupyter notebook
-  ```
-  https://askubuntu.com/questions/378558/unable-to-locate-package-while-trying-to-install-packages-with-apt
   
   - Install Python
   
