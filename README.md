@@ -10,7 +10,8 @@
   
   ```
  $ pkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
-  $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
+  $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy==1.12
+  $ LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib pandas jupyter
   $ jupyter notebook
   ```
 
