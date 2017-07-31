@@ -2,7 +2,7 @@
  1. Termux를 이용하여 안드로이드OS에서 Jupyter Notebook으로 python 코딩하기
 
 
-## Termax에 Python 설치하기
+## Termux로 Python 개발 환경 세팅하기
   
   
 ### Install Package (Python...)
