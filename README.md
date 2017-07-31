@@ -18,16 +18,18 @@
 ### Install Python Libraries
 
 
-   - Termux에서 pip를 사용할 경우 아래와 같이 사용해야 합니다. 혹시 이미 pip install을 사용하여 다운로드 하셨을 경우 
-   pip uninstall 명령어를 사용하여 삭제 후 다시 인스톨 해주셔야 합니다. 
+   - Termux에서 외장 메모리를 활용하는 방법 입니다. [여기](https://termux.com/storage.html)를 참고하세요.
    
-   
+  ```
+  $ termux-setup-storage
+  ```
+
+### Using External Storage
+
   ```
   $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy==1.12
   $ LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib pandas jupyter
   ```
-  
-  
   
   
 ## 참고
