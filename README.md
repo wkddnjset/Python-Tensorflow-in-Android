@@ -1,4 +1,4 @@
-# Python-in-Android
+# Python_in_Android
  1. Termux를 이용하여 안드로이드OS에서 Jupyter Notebook으로 python 코딩하기
 
 
