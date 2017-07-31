@@ -10,7 +10,6 @@
 
    - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.
   
-  
   ```
  $ pkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
   ```
@@ -20,7 +19,7 @@
 
    - Termux에서 외장 메모리를 활용하는 방법 입니다. [여기](https://termux.com/storage.html)를 참고하세요.
    
-  ```
+  ```
   $ termux-setup-storage
   ```
 
