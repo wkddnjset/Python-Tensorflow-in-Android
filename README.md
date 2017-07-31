@@ -6,16 +6,19 @@
   
 ### Install Package (Python...)
 
-  - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.
+   - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.
   
   ```
  $ pkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
+  ```
+### Install Python libraries
+
+   - Termux에서 pip를 사용할 경우 아래와 같이 사용해야 합니다. 혹시 이미 pip install을 사용하여 다운로드 하셨을 경우 pip uninstall 명령어를 사용하여 삭제 후 다시 인스톨 해주셔야 합니다. 
+   
+  ```
   $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy==1.12
   $ LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib pandas jupyter
-  $ jupyter notebook
   ```
-### Install Package (Python...)
-
   
   
   
