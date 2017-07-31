@@ -4,7 +4,7 @@
 
 ## Termax 사용하기
   
-  - Install Python
+### Install Package (Python...)
 
   - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.
   
@@ -14,6 +14,7 @@
   $ LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib pandas jupyter
   $ jupyter notebook
   ```
+### Install Package (Python...)
 
   
   
