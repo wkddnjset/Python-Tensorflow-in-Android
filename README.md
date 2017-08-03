@@ -14,7 +14,7 @@
  $ pkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
   ```
   
-### Install Python Libraries
+### Using External Storage
 
 
    - Termux에서 외장 메모리를 활용하는 방법 입니다. [여기](https://termux.com/storage.html)를 참고하세요.
@@ -24,7 +24,7 @@
   ```
    - 터미널에 위의 명령어를 입력하게되면 ```$HOME```에 ```storage```폴더가 설치 되는것을 확인 할 수 있습니다.
   
-### Using External Storage
+### Install Python Libraries
 
   ```
   $ LDFLAGS=" -lm -lcompiler_rt" pip install numpy==1.12
