@@ -8,7 +8,7 @@
 ### Install Package (Python...)
 
 
-   - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.
+   - Termux는 apt install이 아닌 pkg install을 사용합니다. Termux의 패키지종류는 [여기](https://github.com/termux/termux-packages)에서 확인 하실 수 있습니다.만약 SD카드 파일이 한글 파일로 되어있을 경우 [여기](http://toyuq.tistory.com/m/186)를 참고하세요.
   
   ```
  $ pkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
